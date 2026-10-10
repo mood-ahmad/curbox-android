@@ -412,7 +412,7 @@
     <string name="nfc_tag_unrecognized">Unrecognized Curbox NFC tag</string>
 
     <string name="onboarding_non_session_title">Non-session based installation detected</string>
-    <string name="onboarding_restricted_settings_desc">Android 13+ restricts Accessibility services for apps installed outside of app stores (like F-Droid or Play Store). To enable permissions, you\'ll need to manually allow \'Restricted settings\' for Curbox. Alternatively, install via the F-Droid app(not website) to avoid this.</string>
+    <string name="onboarding_restricted_settings_desc">Android 13+ restricts Accessibility services for apps installed outside of official app stores. To enable permissions, you\'ll need to manually allow \'Restricted settings\' for Curbox.</string>
     <string name="onboarding_show_tutorial">Show tutorial to enable permissions</string>
     <string name="onboarding_shizuku_grant">Grant all permissions with Shizuku</string>
     <string name="sync_paywall_title">Finish setting up sync</string>
