@@ -38,6 +38,7 @@ class TargetSelectionFragment : Fragment() {
                 R.id.chip_instagram -> "Instagram"
                 R.id.chip_tiktok -> "TikTok"
                 R.id.chip_youtube -> "YouTube"
+                R.id.chip_facebook -> "Facebook" // CHANGED
                 R.id.chip_reddit -> "Reddit"
                 R.id.chip_other -> "Other"
                 else -> "Instagram"
