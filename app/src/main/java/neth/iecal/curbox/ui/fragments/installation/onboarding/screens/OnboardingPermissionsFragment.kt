@@ -101,6 +101,7 @@ class OnboardingPermissionsFragment : Fragment() {
                 "Instagram" to "com.instagram.android",
                 "TikTok" to "com.zhiliaoapp.musically",
                 "YouTube" to "com.google.android.youtube",
+                "Facebook" to "com.facebook.katana", // CHANGED
                 "Reddit" to "com.reddit.frontpage"
             )
             
