@@ -62,8 +62,8 @@ android {
         applicationId = "neth.iecal.curbox"
         minSdk = 26
         targetSdk = 35
-        versionCode = 4
-        versionName = "4"
+        versionCode = 10102 // CHANGED
+        versionName = "1.1.2-curbox" // CHANGED
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         resValue("string", "app_name", "Curbox")
 
@@ -79,7 +79,7 @@ android {
         // Fully offline, otherwise every feature except cross device sync.
         create("fdroid") {
             dimension = "version"
-            versionNameSuffix = "-fdroid"
+            // versionNameSuffix = "-fdroid" // CHANGED (disabled)
             buildConfigField("Boolean", "FDROID_VARIANT", "true")
         }
 
@@ -150,7 +150,7 @@ android {
         }
         debug {
 //            applicationIdSuffix = ".debug"
-            versionNameSuffix = "-debug"
+            // versionNameSuffix = "-debug" // CHANGED (disabled)
             resValue("string", "app_name", "Debug Curbox")
         }
     }
