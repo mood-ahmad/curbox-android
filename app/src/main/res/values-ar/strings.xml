@@ -312,7 +312,7 @@
     <string name="notification_title_remaining_usage">الاستخدام المتبقي قبل الحجب</string>
     <string name="notification_title_focus_mode_on">وضع التركيز مفعّل</string>
     <string name="onboarding_non_session_title">تم اكتشاف تثبيت خارج متجر التطبيقات</string>
-    <string name="onboarding_restricted_settings_desc">يقيّد أندرويد 13 وما بعده خدمات إمكانية الوصول للتطبيقات المثبتة خارج متاجر التطبيقات (مثل F-Droid أو متجر Play). لتفعيل الأذونات، ستحتاج إلى السماح يدويًا بـ\'الإعدادات المقيدة\' لتطبيق Curbox. بدلًا من ذلك، يمكنك التثبيت عبر تطبيق F-Droid (وليس موقعه) لتجنب هذه المشكلة.</string>
+    <string name="onboarding_restricted_settings_desc">يقيّد أندرويد 13 وما بعده خدمات إمكانية الوصول للتطبيقات المثبتة من خارج المتاجر الرسمية. لتفعيل الأذونات، ستحتاج إلى السماح يدويًا بـ\'الإعدادات المقيدة\' لتطبيق Curbox.</string>
     <string name="onboarding_show_tutorial">عرض شرح لتفعيل الأذونات</string>
     <string name="onboarding_shizuku_grant">منح كل الأذونات باستخدام Shizuku</string>
     <string name="sync_paywall_body">كل ما في Curbox مجاني. مزامنة بياناتك بين الأجهزة هي الميزة المدفوعة الوحيدة، لأنها تحتاج إلى خادم تكلفة تشغيله مالية. تبقى بياناتك مشفّرة بحيث لا أستطيع قراءتها حتى أنا.</string>
