@@ -31,6 +31,9 @@ object DonationPrompt {
 
     private const val DONATE_URL = "https://curbox.app/donate"
 
+    // CHANGED: the prompt is switched off in this build.
+    private val promptEnabled = false
+
     // Only start asking once the app has clearly become part of the user's routine.
     private const val MIN_LAUNCHES = 4
 
@@ -43,6 +46,8 @@ object DonationPrompt {
      * Safe to call on every main screen launch.
      */
     fun maybeShow(activity: AppCompatActivity) {
+        if (!promptEnabled) return // CHANGED
+
         val prefs = activity.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
 
         if (prefs.getBoolean(KEY_OPTED_OUT, false)) return
