@@ -151,7 +151,7 @@ android {
         debug {
 //            applicationIdSuffix = ".debug"
             // versionNameSuffix = "-debug" // CHANGED (disabled)
-            resValue("string", "app_name", "Debug Curbox")
+            resValue("string", "app_name", "Curbox") // CHANGED
         }
     }
     compileOptions {
